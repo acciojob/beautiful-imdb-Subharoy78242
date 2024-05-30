@@ -1,2 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
 
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.moviePic {
+    height: 400px;
+    width: auto;
+    opacity: 0.9;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto 0;
+    color: #333;
+    line-height: 1.5;
+}
 /* Your CSS Code here. */
